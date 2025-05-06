@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="logout_icon" transform="translate(-308 -410)">
+    <circle id="Ellipse_3182" data-name="Ellipse 3182" cx="15" cy="15" r="15" transform="translate(308 410)" fill="#f56868"/>
+    <g id="vuesax_linear_logout" data-name="vuesax/linear/logout" transform="translate(-435.79 -28.79)">
+      <g id="logout" transform="translate(748 444)">
+        <path id="Vector" d="M0,4.136C.253,1.2,1.762,0,5.066,0h.106C8.819,0,10.28,1.46,10.28,5.107v5.319c0,3.647-1.46,5.107-5.107,5.107H5.066c-3.28,0-4.789-1.183-5.058-4.071" transform="translate(7.261 2.031)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Vector-2" data-name="Vector" d="M9.284,0H0" transform="translate(2.953 9.79)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Vector-3" data-name="Vector" d="M2.733,0,0,2.733,2.733,5.466" transform="translate(2.04 7.057)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Vector-4" data-name="Vector" d="M0,0H19.58V19.58H0Z" transform="translate(19.58 19.58) rotate(180)" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="nav3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_twotone_courthouse" data-name="vuesax/twotone/courthouse">
+    <g id="courthouse">
+      <path id="Vector" d="M0,0H20" transform="translate(2 22)" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Vector-2" data-name="Vector" d="M5,0V3A6.75,6.75,0,0,1,0,3V0A6.75,6.75,0,0,0,5,0Z" transform="translate(12 2)" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0V3" transform="translate(12 5)" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Vector-4" data-name="Vector" d="M3,0A2.652,2.652,0,0,0,0,3V14H16V3a2.652,2.652,0,0,0-3-3Z" transform="translate(4 8)" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H14.84" transform="translate(4.58 12)" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0V10" transform="translate(7.99 12)" fill="none" stroke="#d8d8d8" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0" opacity="0.4"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0V10" transform="translate(11.99 12)" fill="none" stroke="#d8d8d8" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0" opacity="0.4"/>
+      <path id="Vector-8" data-name="Vector" d="M0,0V10" transform="translate(15.99 12)" fill="none" stroke="#d8d8d8" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0" opacity="0.4"/>
+      <path id="Vector-9" data-name="Vector" d="M24,0V24H0V0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

@@ -65,7 +65,7 @@ class _MyMobileTextFieldState extends State<MyMobileTextField>
   late TextEditingController searchEditingController;
 
   late AppIntlCountry selectedCountry = allowedCountries
-      .firstWhere((element) => element.dialCode == (widget.dialCode ?? '968'));
+      .firstWhere((element) => element.dialCode == (widget.dialCode ?? '966'));
 
   List<AppIntlCountry> searchedCountries = [];
 
@@ -112,80 +112,83 @@ class _MyMobileTextFieldState extends State<MyMobileTextField>
 
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<StyleGetxController>(builder: (styleController) {
-      return Container(
-        padding: EdgeInsets.zero,
-        margin: EdgeInsets.zero,
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(
-              10.r,
-            ),
-            border: Border.all(color: const Color(0xFFD1D1D1), width: 1)),
-        height: 60.h,
-        child: Row(
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12.0),
-              child: widget.prefixIcon != null
-                  ? appSvgImage('assets/icons/${widget.prefixIcon}',
-                      color: isFocused
-                          ? Theme.of(context).primaryColor
-                          : widget.prefixIconColor)
-                  : null,
-            ),
-            appSvgImage(AssetsHelper.line),
-            Expanded(
-              child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 8.h, vertical: 3.h),
-                // padding: EdgeInsets.only(
-                //   bottom: widget.bottomPadding.h,
-                //   right: widget.horPadding.w,
-                //   left: widget.horPadding.w,
-                // ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.only(top: 5.h),
-                      child: Text(
-                        widget.labelText ?? "",
-                        style: const TextStyle(
-                          color: Color(0xff818181),
-                          fontSize: 11.0,
+    return GetBuilder<StyleGetxController>(
+      builder: (styleController) {
+        return Container(
+          padding: EdgeInsets.zero,
+          margin: EdgeInsets.zero,
+          decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(
+                10.r,
+              ),
+              border: Border.all(color: const Color(0xFFD1D1D1), width: 1)),
+          height: 60.h,
+          child: Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 12.0),
+                child: widget.prefixIcon != null
+                    ? appSvgImage('assets/icons/${widget.prefixIcon}',
+                        color: isFocused
+                            ? Theme.of(context).primaryColor
+                            : widget.prefixIconColor)
+                    : null,
+              ),
+              appSvgImage(AssetsHelper.line),
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 8.h, vertical: 3.h),
+                  // padding: EdgeInsets.only(
+                  //   bottom: widget.bottomPadding.h,
+                  //   right: widget.horPadding.w,
+                  //   left: widget.horPadding.w,
+                  // ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Padding(
+                        padding: EdgeInsets.only(top: 5.h),
+                        child: Text(
+                          widget.labelText ?? "",
+                          style: const TextStyle(
+                            color: Color(0xff818181),
+                            fontSize: 11.0,
+                          ),
                         ),
                       ),
-                    ),
-                    GetBuilder<LanguageGetxController>(
-                      builder: (lang) => Expanded(
-                        child: TextField(
-                          enabled: widget.enabled ?? true,
-                          focusNode: focusNode,
-                          controller: widget.controller,
-                          keyboardType: TextInputType.number,
-                          cursorColor: Colors.grey,
-                          style: _textStyle(styleController,
-                              black: widget.isBlack!),
-                          decoration:
-                              _buildInputDecoration(styleController, lang),
-                          textDirection: TextDirection.ltr,
-                          onSubmitted: widget.onSubmitted,
-                          inputFormatters: [
-                            FilteringTextInputFormatter.allow(
-                                RegExp(r'(^\d*\.?\d{0,2})'))
-                          ],
+                      GetBuilder<LanguageGetxController>(
+                        builder: (lang) => Expanded(
+                          child: TextField(
+                            enabled: widget.enabled ?? true,
+                            focusNode: focusNode,
+                            controller: widget.controller,
+                            keyboardType: TextInputType.number,
+                            cursorColor: Colors.grey,
+                            style: _textStyle(styleController,
+                                black: widget.isBlack!),
+                            decoration:
+                                _buildInputDecoration(styleController, lang),
+                            textDirection: TextDirection.ltr,
+                            onSubmitted: widget.onSubmitted,
+                            inputFormatters: [
+                              FilteringTextInputFormatter.allow(
+                                  RegExp(r'(^\d*\.?\d{0,2})'))
+                            ],
+                          ),
                         ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
-            ),
-          ],
-        ),
-      );
-    });
+            ],
+          ),
+        );
+      },
+    );
   }
 
   InputDecoration _buildInputDecoration(

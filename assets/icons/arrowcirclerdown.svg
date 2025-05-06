@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="arrowcirclerdown" transform="translate(24) rotate(90)">
+    <g id="vuesax_outline_arrow-circle-right" data-name="vuesax/outline/arrow-circle-right">
+      <g id="arrow-circle-right">
+        <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75,10.762,10.762,0,0,1,10.75,21.5Zm0-20A9.25,9.25,0,1,0,20,10.75,9.26,9.26,0,0,0,10.75,1.5Z" transform="translate(1.25 1.25)" fill="#0b629c"/>
+        <path id="Vector-2" data-name="Vector" d="M.218,8.337a.754.754,0,0,1,0-1.06l3-3-3-3A.75.75,0,0,1,1.278.218l3.53,3.53a.754.754,0,0,1,0,1.06l-3.53,3.53a.748.748,0,0,1-1.06,0Z" transform="translate(9.992 7.723)" fill="#0b629c"/>
+        <path id="Vector-3" data-name="Vector" d="M24,0V24H0V0Z" fill="#0b629c" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

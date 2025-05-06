@@ -1,0 +1,9 @@
+<svg id="privecy_icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <rect id="Rectangle_161418" data-name="Rectangle 161418" width="26" height="26" rx="9" fill="#6278e5"/>
+  <g id="vuesax_bulk_shield-tick" data-name="vuesax/bulk/shield-tick" transform="translate(-295.234 -183.234)">
+    <g id="shield-tick" transform="translate(300 188)">
+      <path id="Subtraction_1" data-name="Subtraction 1" d="M5.794,13.794a2.019,2.019,0,0,1-1.211-.375L.809,10.6A2.267,2.267,0,0,1,0,8.979V3.421a2.189,2.189,0,0,1,1.31-1.9L5.083.107A2.121,2.121,0,0,1,5.788,0,2.027,2.027,0,0,1,6.5.114l3.774,1.414a2.167,2.167,0,0,1,1.31,1.894V8.979a2.293,2.293,0,0,1-.81,1.62L7.005,13.418A2.019,2.019,0,0,1,5.794,13.794ZM3.773,6.326A.514.514,0,0,0,3.41,7.2l1.105,1.1a.511.511,0,0,0,.726,0L8.192,5.356a.516.516,0,0,0,0-.728.519.519,0,0,0-.728,0L4.878,7.215l-.741-.741A.514.514,0,0,0,3.773,6.326Z" transform="translate(2.436 1.306)" fill="#fff"/>
+      <path id="Vector" d="M0,0H16.468V16.468H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

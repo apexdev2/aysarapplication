@@ -21,7 +21,7 @@ class InfoWidget extends StatelessWidget with ImageHelper {
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30.r),
-            color: const Color(0xffDDECFF)),
+            color: const Color(0xffE7EAFF)),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.start,
@@ -45,7 +45,7 @@ class InfoWidget extends StatelessWidget with ImageHelper {
                 Text(
                   name ?? "",
                   style: TextStyle(
-                    color: Theme.of(context).primaryColor,
+                    color: Theme.of(context).secondaryHeaderColor,
                     fontSize: 12.sp,
                   ),
                 ),
@@ -59,7 +59,7 @@ class InfoWidget extends StatelessWidget with ImageHelper {
                       textDirection: TextDirection.ltr,
                       mobile ?? '',
                       style: TextStyle(
-                        color: Theme.of(context).hintColor,
+                        color: Colors.grey,
                         fontSize: 12.sp,
                       ),
                     ),
@@ -74,7 +74,7 @@ class InfoWidget extends StatelessWidget with ImageHelper {
                     Text(
                       email ?? '',
                       style: TextStyle(
-                        color: Theme.of(context).hintColor,
+                        color: Colors.grey,
                         fontSize: 12.sp,
                       ),
                     ),

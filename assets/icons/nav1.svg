@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24">
+  <g id="nav1" transform="translate(0.5 0.5)">
+    <g id="vuesax_twotone_home-hashtag" data-name="vuesax/twotone/home-hashtag">
+      <g id="home-hashtag">
+        <path id="Vector" d="M1.426,4.813A4.734,4.734,0,0,0,0,7.995v7.1A3.886,3.886,0,0,0,3.684,19.14H13.816A3.883,3.883,0,0,0,17.5,15.106V8.129a4.673,4.673,0,0,0-1.575-3.306L10.517.673A3.646,3.646,0,0,0,6.143.788Z" transform="translate(1.75 1.934)" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+        <g id="Group_705" data-name="Group 705" transform="translate(6.563 8.625)" opacity="0.4">
+          <path id="Vector-2" data-name="Vector" d="M5.25,8.625A2.767,2.767,0,0,0,7.875,5.75V2.875A2.767,2.767,0,0,0,5.25,0H2.625A2.767,2.767,0,0,0,0,2.875V5.75A2.767,2.767,0,0,0,2.625,8.625Z" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+          <path id="Vector-3" data-name="Vector" d="M0,0V8.625" transform="translate(3.938)" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+          <path id="Vector-4" data-name="Vector" d="M0,0H7.875" transform="translate(0 4.313)" fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+        </g>
+        <path id="Vector-5" data-name="Vector" d="M21,0V23H0V0Z" fill="none" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

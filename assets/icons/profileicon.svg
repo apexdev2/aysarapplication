@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="profileicon" transform="translate(-308.888 -231.888)">
+    <circle id="Ellipse_324" data-name="Ellipse 324" cx="15" cy="15" r="15" transform="translate(308.888 231.888)" fill="#7ae2d4"/>
+    <g id="vuesax_outline_frame" data-name="vuesax/outline/frame" transform="translate(314.057 237.78)">
+      <g id="frame" transform="translate(0)">
+        <path id="Vector" d="M4.222,8.183H4.159a.428.428,0,0,0-.142,0,4.06,4.06,0,1,1,.229,0Zm-.126-7A2.909,2.909,0,0,0,3.985,7a1.3,1.3,0,0,1,.253,0A2.91,2.91,0,0,0,4.1,1.184Z" transform="translate(5.374 0.986)" fill="#fff"/>
+        <path id="Vector-2" data-name="Vector" d="M0,0H18.939V18.939H0Z" fill="none" opacity="0"/>
+        <path id="Vector-3" data-name="Vector" d="M5.974,7.98A7.8,7.8,0,0,1,1.7,6.8,3.386,3.386,0,0,1,0,3.995,3.421,3.421,0,0,1,1.7,1.178a8.355,8.355,0,0,1,8.554,0,3.4,3.4,0,0,1,1.7,2.8,3.421,3.421,0,0,1-1.7,2.817A7.814,7.814,0,0,1,5.974,7.98ZM2.352,2.172A2.269,2.269,0,0,0,1.184,4,2.264,2.264,0,0,0,2.352,5.818a7.131,7.131,0,0,0,7.244,0,2.269,2.269,0,0,0,1.168-1.831A2.264,2.264,0,0,0,9.6,2.172,7.168,7.168,0,0,0,2.352,2.172Z" transform="translate(3.63 9.815)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

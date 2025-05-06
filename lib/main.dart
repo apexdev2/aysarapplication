@@ -8,6 +8,7 @@ import 'package:aysar_app/utils/enms.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -58,46 +59,76 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           textTheme: const TextTheme(
             titleMedium: TextStyle(
-                fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black),
+                fontSize: 16,
+                fontWeight: FontWeight.w500,
+                color: Color(0xff363535)),
             bodyLarge: TextStyle(
-                fontSize: 14, fontWeight: FontWeight.w400, color: Colors.black),
+                fontSize: 14,
+                fontWeight: FontWeight.w400,
+                color: Color(0xff363535)),
             bodyMedium: TextStyle(
-                fontSize: 12, fontWeight: FontWeight.w400, color: Colors.black),
+                fontSize: 12,
+                fontWeight: FontWeight.w400,
+                color: Color(0xff363535)),
             bodySmall: TextStyle(
-                fontSize: 10, fontWeight: FontWeight.w300, color: Colors.black),
+                fontSize: 10,
+                fontWeight: FontWeight.w300,
+                color: Color(0xff363535)),
             displayLarge: TextStyle(
-                fontSize: 34, fontWeight: FontWeight.w900, color: Colors.black),
+                fontSize: 34,
+                fontWeight: FontWeight.w900,
+                color: Color(0xff363535)),
             displayMedium: TextStyle(
-                fontSize: 24, fontWeight: FontWeight.w800, color: Colors.black),
+                fontSize: 24,
+                fontWeight: FontWeight.w800,
+                color: Color(0xff363535)),
             displaySmall: TextStyle(
-                fontSize: 18, fontWeight: FontWeight.w700, color: Colors.black),
+                fontSize: 18,
+                fontWeight: FontWeight.w700,
+                color: Color(0xff363535)),
             headlineLarge: TextStyle(
-                fontSize: 32, fontWeight: FontWeight.w600, color: Colors.black),
+                fontSize: 32,
+                fontWeight: FontWeight.w600,
+                color: Color(0xff363535)),
             headlineMedium: TextStyle(
-                fontSize: 28, fontWeight: FontWeight.w500, color: Colors.black),
+                fontSize: 28,
+                fontWeight: FontWeight.w500,
+                color: Color(0xff363535)),
             headlineSmall: TextStyle(
-                fontSize: 22, fontWeight: FontWeight.w400, color: Colors.black),
+                fontSize: 22,
+                fontWeight: FontWeight.w400,
+                color: Color(0xff363535)),
             labelLarge: TextStyle(
-                fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black),
+                fontSize: 14,
+                fontWeight: FontWeight.w600,
+                color: Color(0xff363535)),
             labelMedium: TextStyle(
-                fontSize: 12, fontWeight: FontWeight.w500, color: Colors.black),
+                fontSize: 12,
+                fontWeight: FontWeight.w500,
+                color: Color(0xff363535)),
             labelSmall: TextStyle(
-                fontSize: 10, fontWeight: FontWeight.w400, color: Colors.black),
+                fontSize: 10,
+                fontWeight: FontWeight.w400,
+                color: Color(0xff363535)),
             titleLarge: TextStyle(
-                fontSize: 20, fontWeight: FontWeight.w700, color: Colors.black),
+                fontSize: 20,
+                fontWeight: FontWeight.w700,
+                color: Color(0xff363535)),
             titleSmall: TextStyle(
-                fontSize: 12, fontWeight: FontWeight.w400, color: Colors.black),
+                fontSize: 12,
+                fontWeight: FontWeight.w400,
+                color: Color(0xff363535)),
           ),
           fontFamily: "MontserratArabic",
-          primaryColor: const Color(0xff0B629C),
-          secondaryHeaderColor: const Color(0XFF26ADBC),
-          hintColor: const Color(0xff858585),
+          primaryColor: const Color(0xff05A5FF),
+          secondaryHeaderColor: const Color(0XFF0B629C),
+          hintColor: const Color(0xffD8D8D8),
           highlightColor: Colors.transparent,
           splashColor: Colors.transparent,
           dividerColor: Colors.grey.shade300,
           colorScheme: theme.colorScheme.copyWith(
-            primary: const Color(0xff0B629C),
-            secondary: const Color(0xff26ADBC),
+            primary: const Color(0xff05A5FF),
+            secondary: const Color(0XFF0B629C),
           ),
           scaffoldBackgroundColor: const Color(0xffF8F8F8),
           shadowColor: Colors.grey.shade200,
@@ -108,9 +139,9 @@ class MyApp extends StatelessWidget {
             },
           ),
         ),
-        // localizationsDelegates: AppLocalizations.localizationsDelegates,
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
         locale: Locale(Get.find<LanguageGetxController>().lang),
-        // home: const SplashScreen(),
+        // home: const OtpScreen(),
       ),
     );
   }

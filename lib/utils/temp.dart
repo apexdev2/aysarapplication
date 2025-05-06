@@ -12,10 +12,9 @@ String tempLongString({int length = 100}) {
 
 String get tempImage {
   String image =
-      'https://c4.wallpaperflare.com/wallpaper/150/648/844/moon-purple-4k-8k-wallpaper-preview.jpg';
+      'https://images.ctfassets.net/n2ifzifcqscw/3QRMlAcJFrYAEAbhziixZW/d4b9aa50215c5ea7a161b8a6b59f1974/hero-real-estate-facts-trends.jpeg';
   return image;
 }
-
 
 String get tempImage2 {
   String image =

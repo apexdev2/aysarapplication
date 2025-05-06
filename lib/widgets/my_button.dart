@@ -33,7 +33,7 @@ class MyButton extends StatefulWidget {
     this.onTap,
     this.iconThenText = false,
     this.loading = false,
-    this.height = 60,
+    this.height = 50,
     this.horizontalMargin = 0,
     this.topMargin = 0,
     this.bottomMargin = 0,

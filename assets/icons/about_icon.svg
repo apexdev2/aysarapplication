@@ -1,0 +1,11 @@
+<svg id="about_icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <rect id="Rectangle_161418" data-name="Rectangle 161418" width="26" height="26" rx="9" fill="#58a8ff"/>
+  <g id="vuesax_bulk_flag" data-name="vuesax/bulk/flag" transform="translate(-231.043 -375.043)">
+    <g id="flag" transform="translate(236 380)">
+      <path id="Vector" d="M0,12.4V0" transform="translate(3.452 1.843)" fill="#fff"/>
+      <path id="Vector-2" data-name="Vector" d="M.5,13.406a.506.506,0,0,1-.5-.5V.5A.506.506,0,0,1,.5,0a.506.506,0,0,1,.5.5V12.9A.506.506,0,0,1,.5,13.406Z" transform="translate(2.949 1.341)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M8.881,5.845l-.818-.818a.932.932,0,0,1-.315-.69,1.106,1.106,0,0,1,.328-.824l.8-.8c.7-.7.959-1.367.737-1.9S8.741,0,7.762,0H.255A.265.265,0,0,0,0,.261V8.3a.255.255,0,0,0,.255.255H7.762c.965,0,1.615-.295,1.837-.824S9.565,6.535,8.881,5.845Z" transform="translate(3.197 2.42)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H16.087V16.087H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

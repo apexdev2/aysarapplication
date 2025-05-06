@@ -2,46 +2,40 @@ class AssetsHelper {
   // images
   static const String imagesPath = "assets/images";
   static const String iconsPath = "assets/icons";
-  static const String splashBg = "$imagesPath/splashBg.png";
-  static const String splashLogo = "$imagesPath/splashlogo.png";
-  static const String splashlayer = "$imagesPath/splash2.png";
-  static const String appbarBg = "$imagesPath/appbarBg.png";
-  static const String crown = "$imagesPath/crown.png";
-  static const String omanFlag = "$imagesPath/om.png";
-  static const String packageImage = "$imagesPath/package_image.png";
-  static const String gun = "$imagesPath/gun_image.png";
-  static const String gLOCKGun = "$imagesPath/GLOCK.png";
-  static const String qrcode = "$imagesPath/qrcode.png";
-  static const String rateus = "$imagesPath/rateus.png";
-  static const String usflag = "$imagesPath/us.png";
-  static const String person = "$imagesPath/person.png";
-  static const String goldIcon = "$imagesPath/gold_icon.png";
-  static const String packageitem = "$imagesPath/package_item.png";
-  static const String sympol1 = "$imagesPath/sympol1.png";
-  static const String sympol2 = "$imagesPath/sympol2.png";
-  static const String sympol3 = "$imagesPath/sympol3.png";
-  static const String eventimage = "$imagesPath/eventimage.png";
-  static const String image1 = "$imagesPath/image1.png";
-  static const String image2 = "$imagesPath/image2.png";
-  static const String image3 = "$imagesPath/image3.png";
-  static const String image4 = "$imagesPath/image4.png";
-  static const String rateappImage = "$imagesPath/rateimage.svg";
+  static const String splashBg = "$imagesPath/splashbg.png";
+  static const String bg2 = "$imagesPath/bg2.png";
+
+  static const String aysarlogo = "$imagesPath/aysarlogo.png";
+  static const String homecard1 = "$imagesPath/homecard1.png";
+  static const String homecard2 = "$imagesPath/homecard2.png";
+
   // icons
+  static const String line = "$iconsPath/Line.svg";
+  static const String maintenanceIcon = "$iconsPath/maintenance_icon.png";
+
+  static const String arrowcirclerdown = "$iconsPath/arrowcirclerdown.svg";
+  static const String uploadeattachment = "$iconsPath/uploadeattachment.svg";
+  static const String search = "$iconsPath/search.svg";
   static const String hand = "$iconsPath/hand.svg";
   static const String logoutIcon = "$iconsPath/logout_icon.svg";
-  static const String line = "$iconsPath/Line.svg";
   static const String bullet = "$iconsPath/bullet.svg";
   static const String chaticon = "$iconsPath/chat_icon.svg";
   static const String sniper = "$iconsPath/sniper.svg";
+
   static const String nav1 = "$iconsPath/nav1.svg";
   static const String nav2 = "$iconsPath/nav2.svg";
   static const String nav3 = "$iconsPath/nav3.svg";
   static const String nav4 = "$iconsPath/nav4.svg";
-  static const String nav5 = "$iconsPath/nav5.svg";
+
   static const String calender = "$iconsPath/calender.svg";
   static const String note = "$iconsPath/note.svg";
   static const String send = "$iconsPath/send.svg";
-  static const String search = "$iconsPath/search.svg";
+  static const String redemail = "$iconsPath/red_email.svg";
+  static const String yellowphone = "$iconsPath/yellow_phone.svg";
+
+  
+
+
   static const String filter = "$iconsPath/filter.svg";
   static const String filterIcon = "$iconsPath/filter_icon.svg";
   static const String calenderRemove = "$iconsPath/calendar-remove.svg";
@@ -69,6 +63,7 @@ class AssetsHelper {
   static const String faqIcon = "$iconsPath/faq_icon.svg";
   static const String privecyIcon = "$iconsPath/privecy_icon.svg";
   static const String reservations = "$iconsPath/reservations.svg";
+
   static const String supportIcon = "$iconsPath/support_icon.svg";
   static const String rateAppIcon = "$iconsPath/rate_app_icon.svg";
   static const String settingIcon = "$iconsPath/setting_icon.svg";
@@ -85,13 +80,11 @@ class AssetsHelper {
   static const String fingerprontIcon = "$iconsPath/fingetprint.svg";
   static const String notifcationIcon = "$iconsPath/notification.svg";
   static const String global = "$iconsPath/global.svg";
-  static const String uploadeattachment = "$iconsPath/uploadeattachment.svg";
   static const String notifcationbulk = "$iconsPath/bulknotify.svg";
   static const String arrowcircleright = "$iconsPath/arrow-circle-right.svg";
+
   static const String notificationsettings =
       "$iconsPath/notificationsettings.svg";
   static const String deleteaccount = "$iconsPath/delete_account.svg";
   static const String confirmdelete = "$iconsPath/confirm_delete.svg";
-  static const String arrowcirclerdown = "$iconsPath/arrowcirclerdown.svg";
-
 }
